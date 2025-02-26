@@ -2,6 +2,9 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import DefaultLayout from './layouts/DefaultLayout';
 
+// IMPORT DEL GLOBAL CONTEXT 
+import GlobalContext from "./contexts/GolbalContexts";
+
 // import delle pegine 
 import HomePage from "./pages/HomePage";
 import UserPostsPage from "./pages/UserPostsPage";
