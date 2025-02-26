@@ -4,7 +4,6 @@ import Header from "../components/Header"
 import Footer from "../components/Footer"
 
 export default function DefaultLayout() {
-    console.log("✅ DefaultLayout caricato!");
     return (
         <>
             <Header />
